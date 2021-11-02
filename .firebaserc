@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "website-e4841": {
+      "hosting": {
+        "ollivander": [
+          "website-e4841"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "website-e4841"
+  }
+}

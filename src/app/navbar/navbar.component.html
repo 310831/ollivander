@@ -1,0 +1,23 @@
+<mat-toolbar id="navbarmain">
+  <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button> -->
+  <a href="#"><img id="mainlogo" src="http://www.ollivanderrobotics.com/wp-content/uploads/2021/05/Ollivander-Robotics-logos_transparent-e1620553175343.png" alt=""></a>
+  <span class="example-spacer"></span>
+  <button mat-button class="navbarbuttons" [matMenuTriggerFor]="products">Products</button>
+    <mat-menu #products="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+  <button mat-button class="navbarbuttons">Solutions</button>
+  <button mat-button class="navbarbuttons">Resources</button>
+  <button mat-button class="navbarbuttons">Research</button>
+  <button mat-button class="navbarbuttons">Company</button>
+  <button mat-button routerLink="register" class="navbarbuttons">Sign Up</button>
+  <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button> -->
+</mat-toolbar>

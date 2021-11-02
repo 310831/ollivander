@@ -1,0 +1,45 @@
+
+#banner1{
+  height: 100px;
+  background:blue;
+  justify-content: center;
+  color: white;
+}
+
+#banner2{
+  height: 350px;
+  justify-content: left;
+  text-align: center;
+  color: white;
+  background-image: url('/assets/banner1.png');
+}
+
+#cardInBanner1{
+  background-color: transparent;
+  color: white;
+}
+
+#button{
+  margin-left: 3em;
+}
+
+#navigobanner1{
+  z-index: -1;
+  position: relative;
+}
+
+
+mat-grid-list{
+  justify-content: center;
+  text-align: center;
+}
+
+.card{
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: gray;
+}
